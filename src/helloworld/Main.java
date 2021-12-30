@@ -24,6 +24,7 @@ public class Main {
         Main main2 = new Main();
         main2.setPrivate(main1);
         System.out.println(main1.getPriv());
+        System.out.println("HelloWorld");
     }
 
 
