@@ -1,0 +1,13 @@
+<root>
+    <bean id="Engine" class="reflection2.Engine">
+        <property name="power" value="230"/>
+    </bean>
+    <bean id="Gear" class="reflection2.ManualGear">
+        <property name="count" value="1"/>
+        <property name="type" value="ManualGear"/>
+    </bean>
+    <bean id="Car" class="reflection2.Car">
+        <property name="engine" ref="Engine"/>
+        <property name="gear" ref="Gear"/>
+    </bean>
+</root>
