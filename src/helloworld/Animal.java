@@ -4,7 +4,7 @@ public class Animal {
     int b;
     String s;
     void setAnimal(){
-        System.out.println("Animal setAnimal");
+        System.out.println("Animal1 setAnimal");
     }
 
 

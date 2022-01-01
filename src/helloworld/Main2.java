@@ -18,7 +18,7 @@ private int i1;
     }
 
     public static void main(String[] args) {
-
+        new WhiteCat().scream();
     }
 
 
